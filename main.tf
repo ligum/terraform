@@ -84,8 +84,8 @@ resource "azurerm_linux_virtual_machine" "sqlvm" {
   resource_group_name             = var.ResourceGroup_name
   location                        = var.ResourceGroup_location
   size                            = "Standard_F2"
-  admin_username                  = "vova"
-  admin_password                  = "Vladimir1234"
+  admin_username                  = "****"
+  admin_password                  = "****"
   disable_password_authentication = false
   depends_on = [
     azurerm_network_interface.NIC_SQL
